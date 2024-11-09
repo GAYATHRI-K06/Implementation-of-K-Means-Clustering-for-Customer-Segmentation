@@ -1,11 +1,13 @@
-## Implementation-of-K-Means-Clustering-for-Customer-Segmentation
+# Implementation-of-K-Means-Clustering-for-Customer-Segmentation
+
 ## AIM:
 To write a program to implement the K Means Clustering for Customer Segmentation.
 
 ## Equipments Required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Jupyter notebook
-Algorithm
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
+
+## Algorithm
 1.Import the necessary packages using import statement.
 
 2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
@@ -17,9 +19,12 @@ Algorithm
 5.Print the outputs and end the program
 
 ## Program:
+```
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by:GAYATHRI.K
+Developed by:GAYATHRI .K
 RegisterNumber:212223230061
+```
+```
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
@@ -67,6 +72,8 @@ plt.legend()
 plt.grid(True)
 plt.axis('equal') 
 plt.show()
+```
+
 ## Output:
 ![image](https://github.com/harini1006/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/113497405/de1e047c-8fc0-4e7e-88e3-250bd28ba8c6)
 
